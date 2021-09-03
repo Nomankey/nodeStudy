@@ -2,6 +2,7 @@
 
 ## Intro
 This is my personal project to study the back-end side with using Node.JS
+After doing my research on what and how nodeJs is I am going to start an twitter clone project
 
 ## What is Node JS?
 * Node js is a Javascript runtime built on Chrome's V8 Javascript Engine
