@@ -16,3 +16,6 @@ This is my personal project to study the back-end side with using Node.JS
 * Every APIs in Node works asynchronously, so non-blocking I/O is possible and high performace in request management is possible by single threaded event loop model
 * Node.js is appropriate in SPA(Single Page Application) which alot of real-time data needs to be dealed with and lots of I/O
 * Do not recommend in applications requires high usage in CPU
+
+hello
+
