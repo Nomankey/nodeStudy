@@ -1,0 +1,19 @@
+{
+  "name": "nodestudy",
+  "version": "1.0.0",
+  "description": "## Intro This is my personal project to study the back-end side with using Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomankey/nodeStudy.git"
+  },
+  "author": "nomankey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomankey/nodeStudy/issues"
+  },
+  "homepage": "https://github.com/Nomankey/nodeStudy#readme"
+}
