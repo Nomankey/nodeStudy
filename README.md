@@ -17,5 +17,4 @@ This is my personal project to study the back-end side with using Node.JS
 * Node.js is appropriate in SPA(Single Page Application) which alot of real-time data needs to be dealed with and lots of I/O
 * Do not recommend in applications requires high usage in CPU
 
-hello
 
