@@ -154,5 +154,58 @@ each requests are not related, which means each requests must have their own ent
 * session: allows client's request until the browser is open
 
 
-## Make server with Node
+## REST API
+
+### RESTful API?
+REST: Representation State Transfer</br>
+API: Application Programming Interface
+
+REST is a software architecture style, it is in the web service guideline</br>
+RESTful system is Architectural Style and Design of Network-based Software and Architecture</br>
+### 6 guiding constrains to make RESTful System
+* Client-server architecture: relationship between UI and data
+* Statelessness
+* Cacheability
+* Layered System
+* Code on demand
+* **Uniform Interface**: fundamental to the design of any RESTful System
+
+### Uniform Interface
+* Resource identification in requests
+* Resource manipulation through representations
+* Self-descriptive messages
+* Hypermedia as the engine of application state(HATEOAS)
+
+##  Designing Web APIs
+The basic structure that controls data is called **CRUD(Create[POST], Read[GET], Update[PUT], Delete[DELETE])**</br>
+POST, GET, PUT, DELETE works as a verb</br>
+Item(domain) works as a noun</br>
+```
+GET /posts
+POST /posts
+GET /posts/1
+PUT /posts/1
+DELTE /posts/1
+
+GET /tags/?query=cool
+```
+for more info: https://docs.github.com/en/rest
+
+## Express.js
+### How to use it?
+```
+const express = require('express');
+const app = express();
+
+app.get('/posts', function (req, res, next) {
+    res.send(...);
+})
+
+app.post('/posts', function (req, res, next) {
+    res.send(...);
+})
+
+//app.get(URL/Path, callback)
+```
+express is a chain of middlewares after a response(like res.send()) next middleware can not be runned
 
